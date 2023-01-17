@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(45deg,rgb(0,0,113), rgba(96,0,0));
+    font-family: system-ui;
+
+}
+
+#content{
+    display:  flex;
+}
+
+.users-container {
+    width: 30%;
+}
+#users{
+    width: 90%;
+    height: 100px;
+    margin: 0 auto;
+}
+
+
+#user{
+    background-color: white;
+    border-radius: 100px;
+    padding: 10px;
+    font-size: 12px;
+    padding-left: 20px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+#user.selected{
+  border: solid #ff6200 6px;
+}
+
+#posts-container{
+    width: 70%;
+    background-color: rgb(236, 236, 236);
+}
+
+#posts{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#post{
+    padding: 30px;
+    padding-left: 15px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 10px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+    margin-top: 22px;
+}
+
